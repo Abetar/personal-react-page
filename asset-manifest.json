@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/personal-react-page/static/css/main.12e0af7c.css",
-    "main.js": "/personal-react-page/static/js/main.0f22ec7a.js",
+    "main.js": "/personal-react-page/static/js/main.2c2be2f2.js",
     "static/media/uag-logo.png": "/personal-react-page/static/media/uag-logo.fc0dbc00ec07ce9cce07.png",
     "static/media/abraham-logo.png": "/personal-react-page/static/media/abraham-logo.974c43ea208bda4114e6.png",
     "index.html": "/personal-react-page/index.html",
     "main.12e0af7c.css.map": "/personal-react-page/static/css/main.12e0af7c.css.map",
-    "main.0f22ec7a.js.map": "/personal-react-page/static/js/main.0f22ec7a.js.map"
+    "main.2c2be2f2.js.map": "/personal-react-page/static/js/main.2c2be2f2.js.map"
   },
   "entrypoints": [
     "static/css/main.12e0af7c.css",
-    "static/js/main.0f22ec7a.js"
+    "static/js/main.2c2be2f2.js"
   ]
 }
