@@ -1,0 +1,17 @@
+.card-over-portfolio {
+    transition: 0.25s linear;
+    color: black;
+}
+
+.card-over-portfolio:hover {
+    -webkit-box-shadow: -1px 16px 32px -7px rgba(0, 0, 0, 0.73);
+    -moz-box-shadow: -1px 16px 32px -7px rgba(0, 0, 0, 0.73);
+    box-shadow: -1px 16px 32px -7px rgba(0, 0, 0, 0.73) !important;
+    text-decoration: none;
+    color: black;
+}
+
+.anchor-portfolio {
+    text-decoration: none;
+    color: black;
+}
