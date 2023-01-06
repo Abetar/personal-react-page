@@ -157,11 +157,6 @@ function App() {
               title = "Salario Minimo Android App"
               desc = 'A calculator to calculate your salary based on your worked days in the minimun salary in 2019.'
             />
-            <Portfolio
-              url = 'https://play.google.com/store/apps/details?id=app.agsolutions.abraham.salariomnimomx&hl=es_MX&gl=US'
-              title = "Test"
-              desc = 'A calculator to calculate your salary based on your worked days in the minimun salary in 2019.'
-            />
           </div>
         </div>
       </div>
