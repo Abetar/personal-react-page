@@ -1,6 +1,6 @@
 {
-    "homepage": "https://abetar.github.io/personal-page-react",
     "name": "personal-page-react",
+    "homepage": "https://abetar.github.io/personal-page-react",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
