@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { Studies } from './Components/studies.js'
 import { Job } from './Components/jobs';
-import { Portfolio, PortfolioSpecial } from './Components/portfolio';
+import { Portfolio, PortfolioSpecial, PortfolioMid } from './Components/portfolio';
 
 function App() {
   return (
@@ -26,6 +26,9 @@ function App() {
               </li>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#portfolio">Technical Portfolio</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#portfolio">Extra Portfolio</a>
               </li>
             </ul>
           </div>
@@ -112,50 +115,74 @@ function App() {
             </div>
           </div>
           <div className='row'>
-            <Portfolio 
-              url = 'https://www.abrahamchoel.com'
-              title = "Abraham Choel's Page"
-              desc = 'A web resume and personal repository.'
+            <Portfolio
+              url='https://www.abrahamchoel.com'
+              title="Abraham Choel's Page"
+              desc='A web resume and personal repository.'
             />
-            <Portfolio 
-              url = 'https://abetar.github.io/arrazate-web-page/'
-              title = "Arrazate's Jewerly Page"
-              desc = 'General mockup for a jewerly starting brand.'
+            <Portfolio
+              url='https://abetar.github.io/arrazate-web-page/'
+              title="Arrazate's Jewerly Page"
+              desc='General mockup for a jewerly starting brand.'
             />
-            <Portfolio 
-              url = 'https://abrahamalexis.com/ruleta/'
-              title = "Roulette"
-              desc = 'A simple web app game roulette.'
+            <Portfolio
+              url='https://abrahamalexis.com/ruleta/'
+              title="Roulette"
+              desc='A simple web app game roulette.'
             />
-            <Portfolio 
-              url = 'https://www.ulisessegovia.com/'
-              title = "Ulises Segovia´s Web Page"
-              desc = 'A web resume and professional portfolio.'
+            <Portfolio
+              url='https://www.ulisessegovia.com/'
+              title="Ulises Segovia´s Web Page"
+              desc='A web resume and professional portfolio.'
             />
             <PortfolioSpecial
-              url = 'https://abetar.github.io/personal-page-react/'
-              title = "A react version of this page"
-              desc = 'This is a mirror site made using React.'
+              url='https://abetar.github.io/personal-react-page/'
+              title="A react version of this page"
+              desc='This is a mirror site made using React.'
             />
             <Portfolio
-              url = 'https://abetar.github.io/FreeCodeCampTestimonios/'
-              title = "My first React App"
-              desc = 'This is a mirror component of freeCodeCamp page.'
+              url='https://abetar.github.io/FreeCodeCampTestimonios/'
+              title="My first React App"
+              desc='This is a mirror component of freeCodeCamp page.'
             />
-            <Portfolio
-              url = 'https://www.grupocora.org'
-              title = "Grupo Cora"
-              desc = 'This is landing page of a civil association to promote the recreational use of weed.'
+            <PortfolioMid
+              url='https://www.grupocora.org'
+              title="Grupo Cora"
+              desc='This is landing page of a civil association to promote the recreational use of weed.'
             />
-            <Portfolio
-              url = 'https://abetar.github.io/Digital_product/'
-              title = "Digital Product"
-              desc = 'This is one of my first web pages created following a Platzi Web Development Course.'
+            <PortfolioMid
+              url='https://abetar.github.io/Digital_product/'
+              title="Digital Product"
+              desc='This is one of my first web pages created following a Platzi Web Course.'
             />
-            <Portfolio
-              url = 'https://play.google.com/store/apps/details?id=app.agsolutions.abraham.salariomnimomx&hl=es_MX&gl=US'
-              title = "Salario Minimo Android App"
-              desc = 'A calculator to calculate your salary based on your worked days in the minimun salary in 2019.'
+
+          </div>
+        </div>
+      </div>
+
+      {/* EXTRA PORTFOLIO */}
+      <div className='gray-container'>
+        <div className='container pt-4 pb-4' id='extraPortfolio'>
+          <div className='row'>
+            <div className='col-lg-12'>
+              <h2 className='text-center'>
+                Extra Portfolio
+              </h2>
+              <p className='text-center'>
+                This portfolio are out of my main scope (Web Development) but I really like to learn several new things 😃.
+              </p>
+            </div>
+          </div>
+          <div className='row'>
+            <PortfolioMid
+              url='https://play.google.com/store/apps/details?id=app.agsolutions.abraham.salariomnimomx&hl=es_MX&gl=US'
+              title="Salario Minimo Android App"
+              desc='A calculator to calculate your salary based on your worked days in the minimun salary in 2019.'
+            />
+            <PortfolioMid
+              url='https://abrahamalexis.com/designPortfolio.html'
+              title="Design Portfolio"
+              desc="This is a design portfolio made on iPad using Procreate, I'm new on this field please free to review it."
             />
           </div>
         </div>
