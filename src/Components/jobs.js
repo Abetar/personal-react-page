@@ -2,7 +2,7 @@ import React from "react";
 
 export function Job(props) {
     return (
-        <div className="col-lg-4 col-md-6 col-sm-12">
+        <div className="col-lg-6 col-md-6 col-sm-12">
             <div className="card mb-3">
                 <div className="row g-0">
                     <div className="col-md-12">

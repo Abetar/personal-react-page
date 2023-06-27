@@ -1,4 +1,5 @@
 import './App.css';
+import './Animations.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import { Studies } from './Components/studies.js'
@@ -34,8 +35,48 @@ function App() {
           </div>
         </div>
       </nav>
+
+      {/* OVERLAY SECTION */}
+      <div className='container'>
+        <div className='row fadeInUp' id='rowOverlay'>
+          <div className='col-lg-4 offset-lg-2 col-md-12 col-sm-12 text-center' id='container-image'>
+            <img src={require('./Images/me.jpeg')} id='image-me'/>
+          </div>
+          <div className='col-lg-4 col-md-12 col-sm-12 text-center' id='container-image'>
+            <h1> 
+              Hi, I'm Abraham
+            </h1>
+            <h2>
+              Let's Work Together
+            </h2>
+            <div>
+              <a href = 'mailto:alexisgomez_96@hotmail.com' className='btn btn-outline-dark form-control'>
+                <strong>
+                  Contact me
+                </strong>
+              </a>
+              <div className='container mt-2'>
+                <div className='row'>
+                  <div className='col-md-6 col-sm-4'>
+                    <a href='https://github.com/Abetar' target='_blank'>
+                      <img src={require('./Images/linkedin.png')} className='images-social'/>
+                    </a>
+                  </div>
+                  <div className='col-md-6 col-sm-4'>
+                    <a href='https://www.linkedin.com/in/abraham-alexis-g%C3%B3mez-arrazate-a48944138/' target='_blank'>
+                      <img src={require('./Images/githubIcon.png')} className='images-social'/>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* JOB SECTION */}
-      <div className='container pt-4' id='experience'>
+      <div className='container fadeInUp pt-4' id='experience'>
         <div className='row'>
           <div className='col-lg-12'>
             <h2 className='text-center'>Experience</h2>
@@ -77,7 +118,7 @@ function App() {
         </div>
       </div>
       {/* STUDIES SECTION */}
-      <div className='gray-container'>
+      <div className='gray-container fadeInUp'>
         <div className='container pt-4 pb-4' id='studies'>
           <div className='row'>
             <div className='col-lg-12'>
@@ -106,7 +147,7 @@ function App() {
 
       {/* PORTFOLIO */}
       <div>
-        <div className='container pt-4 pb-4' id='portfolio'>
+        <div className='container pt-4 pb-4 fadeInUp' id='portfolio'>
           <div className='row'>
             <div className='col-lg-12'>
               <h2 className='text-center'>
@@ -135,25 +176,25 @@ function App() {
               title="Ulises Segovia´s Web Page"
               desc='A web resume and professional portfolio.'
             />
-            <PortfolioSpecial
-              url='https://abetar.github.io/personal-react-page/'
-              title="A react version of this page"
-              desc='This is a mirror site made using React.'
-            />
             <Portfolio
               url='https://abetar.github.io/FreeCodeCampTestimonios/'
               title="My first React App"
               desc='This is a mirror component of freeCodeCamp page.'
             />
-            <PortfolioMid
+            <Portfolio
               url='https://www.grupocora.org'
               title="Grupo Cora"
               desc='This is landing page of a civil association to promote the recreational use of weed.'
             />
-            <PortfolioMid
+            <Portfolio
               url='https://abetar.github.io/Digital_product/'
               title="Digital Product"
               desc='This is one of my first web pages created following a Platzi Web Course.'
+            />
+            <Portfolio
+              url='https://callateytomamidinero.com/'
+              title="Callate Y Toma Mi Dinero"
+              desc='This is a E-Commerce Web Page made with Wordpress and Elementor.'
             />
 
           </div>
@@ -161,7 +202,7 @@ function App() {
       </div>
 
       {/* EXTRA PORTFOLIO */}
-      <div className='gray-container'>
+      <div className='gray-container fadeInUp'>
         <div className='container pt-4 pb-4' id='extraPortfolio'>
           <div className='row'>
             <div className='col-lg-12'>
@@ -188,6 +229,12 @@ function App() {
         </div>
       </div>
 
+      {/* FOOTER */}
+      <footer className="footer-style p-4">
+        <div className="col-sm-12 text-center">
+            Made with ☕️&nbsp; and&nbsp; ❤️
+        </div>
+    </footer>
     </div>
   );
 }
