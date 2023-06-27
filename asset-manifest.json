@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/personal-react-page/static/css/main.f96d49d2.css",
-    "main.js": "/personal-react-page/static/js/main.adab9b3a.js",
+    "main.css": "/personal-react-page/static/css/main.03a9cd18.css",
+    "main.js": "/personal-react-page/static/js/main.69fff082.js",
     "static/media/me.jpeg": "/personal-react-page/static/media/me.998d14b870065fb28c4a.jpeg",
     "static/media/uag-logo.png": "/personal-react-page/static/media/uag-logo.fc0dbc00ec07ce9cce07.png",
     "static/media/abraham-logo.png": "/personal-react-page/static/media/abraham-logo.974c43ea208bda4114e6.png",
     "index.html": "/personal-react-page/index.html",
-    "main.f96d49d2.css.map": "/personal-react-page/static/css/main.f96d49d2.css.map",
-    "main.adab9b3a.js.map": "/personal-react-page/static/js/main.adab9b3a.js.map"
+    "main.03a9cd18.css.map": "/personal-react-page/static/css/main.03a9cd18.css.map",
+    "main.69fff082.js.map": "/personal-react-page/static/js/main.69fff082.js.map"
   },
   "entrypoints": [
-    "static/css/main.f96d49d2.css",
-    "static/js/main.adab9b3a.js"
+    "static/css/main.03a9cd18.css",
+    "static/js/main.69fff082.js"
   ]
 }
