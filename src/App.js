@@ -126,14 +126,14 @@ function App() {
             </div>
           </div>
           <div className='row'>
-            <div className="col-lg-3 offset-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-3 offset-lg-3 col-md-6 col-sm-12 studiesConteiner">
               <Studies
                 career="Biomedical Engineer"
                 degree="Bachelor Degree"
                 school="Universidad Autonoma de Guadalajara"
               />
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-12">
+            <div className="col-lg-3 col-md-6 col-sm-12 studiesConteiner">
               <Studies
                 career="Computer Science"
                 degree="Master Degree"

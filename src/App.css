@@ -54,5 +54,10 @@
 
   #image-me{
     width: 200px;
+    margin-top: 10px;
+  }
+
+  .studiesConteiner{
+    margin-bottom: 10px;
   }
 }
