@@ -58,12 +58,12 @@ function App() {
               <div className='container mt-2'>
                 <div className='row'>
                   <div className='col-md-6 col-sm-4'>
-                    <a href='https://github.com/Abetar' target='_blank'>
+                    <a href='https://www.linkedin.com/in/abraham-alexis-g%C3%B3mez-arrazate-a48944138/' target='_blank'>
                       <img src={require('./Images/linkedin.png')} className='images-social'/>
                     </a>
                   </div>
                   <div className='col-md-6 col-sm-4'>
-                    <a href='https://www.linkedin.com/in/abraham-alexis-g%C3%B3mez-arrazate-a48944138/' target='_blank'>
+                    <a href='https://github.com/Abetar' target='_blank'>
                       <img src={require('./Images/githubIcon.png')} className='images-social'/>
                     </a>
                   </div>
