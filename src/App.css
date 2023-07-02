@@ -6,6 +6,10 @@
   margin-right: 10px !important;
 }
 
+#navbar-toggle-container{
+  border-color: white !important;
+}
+
 .navbar-styles li a {
   color: white !important;
   padding: 5px;

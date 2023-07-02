@@ -14,7 +14,7 @@ function App() {
           <a className="navbar-brand" href="https://www.abrahamalexis.com">
             <img src={require("./Images/abraham-logo.png")} width="45px" alt="" />
           </a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler" id="navbar-toggle-container" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
